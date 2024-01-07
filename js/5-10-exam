@@ -1,0 +1,104 @@
+
+// exercise 1
+
+// function getOddDividersSum(n) {
+//     let sum = 0;
+
+//     for (let i = 1; i <= n; i++) {
+//         if (n % i === 0 && i % 2 !== 0) {
+//             sum += i;
+//         }
+//     }
+
+//     return sum;
+// }
+
+// let n = 30;
+// let result = getOddDividersSum(n);
+// console.log(result);
+
+
+// exercise 2
+
+// function search(arr, str) {
+//     const result = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i].toLowerCase().includes(str.toLowerCase())) {
+//             result.push(arr[i]);
+//         }
+//     }
+
+//     return result;
+// }
+
+// let arr = ["Abdulaziz", "Shahobiddin", "Shohrux", "Shukurjon", "Azamat", "Rahmatulla"];
+// let str = "az";
+// let result = search(arr, str);
+// console.log(result);
+
+
+// exercise 3
+
+// function getDividersSum(arr, n) {
+//     let sum = 0;
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % n === 0) {
+//             sum += arr[i];
+//         }
+//     }
+
+//     return sum;
+// }
+
+// let arr = [2, 5, 7, 10, 0, 18, 15];
+// let n = 5;
+// let result = getDividersSum(arr, n);
+// console.log(result);
+
+
+// exercise 4
+
+
+
+// exercise 5
+
+
+
+// exercise 6
+
+// function changeObjToString(obj) {
+//     let result = '';
+
+//     for (let key in obj) {
+//         result += key;
+//     }
+
+//     for (let key in obj) {
+//         result += obj[key];
+//     }
+
+//     return result;
+// }
+
+// let obj = { a: 1, b: 2, c: 3 };
+// let result = changeObjToString(obj);
+// console.log(result);
+
+
+// exercise 7
+
+
+
+// exercise 8
+
+
+
+// exercise 9
+
+
+// exercise 10
+
+
+
